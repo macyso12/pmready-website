@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         community: resolve(__dirname, 'community.html'),
         program: resolve(__dirname, 'program.html'),
+        fellowship: resolve(__dirname, 'fellowship.html'),
         contact: resolve(__dirname, 'contact.html'),
       },
     },

@@ -1,0 +1,168 @@
+/* ── Hero ── */
+.fellowship-hero {
+  padding-top: calc(var(--nav-height) + var(--space-3xl));
+  padding-bottom: var(--space-3xl);
+  background: linear-gradient(145deg, #edf7e8 0%, var(--color-white) 60%);
+  text-align: center;
+}
+.fellowship-hero .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: rgba(91,173,48,0.12);
+  color: var(--color-green-mid);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.375rem 1rem;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-lg);
+}
+.fellowship-hero h1 { color: var(--color-navy); max-width: 760px; margin-inline: auto; }
+.fellowship-hero h1 span { color: var(--color-green-mid); }
+.fellowship-hero p {
+  font-size: 1.125rem;
+  max-width: 620px;
+  margin-inline: auto;
+  margin-top: var(--space-lg);
+}
+.fellowship-hero .btn { margin-top: var(--space-xl); }
+
+.fellowship-stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2xl);
+  flex-wrap: wrap;
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-2xl);
+  border-top: 1px solid var(--color-border);
+}
+.fellowship-stat { text-align: center; }
+.fellowship-stat .number { display: block; font-size: 1.75rem; font-weight: 700; color: var(--color-navy); }
+.fellowship-stat .label { font-size: 0.875rem; color: var(--color-text-muted); }
+
+/* ── Overview ── */
+.fellowship-overview { background: #f0f9ea; }
+.fellowship-overview .inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+.fellowship-overview h2 { color: var(--color-navy); margin-bottom: var(--space-md); }
+.fellowship-overview p + p { margin-top: var(--space-md); }
+
+.overview-cards { display: flex; flex-direction: column; gap: var(--space-md); }
+.overview-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}
+.overview-card-icon {
+  width: 44px; height: 44px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  background: rgba(91,173,48,0.12);
+}
+.overview-card strong { display: block; font-weight: 600; color: var(--color-navy); }
+.overview-card span { font-size: 0.875rem; color: var(--color-text-muted); }
+
+/* ── Learning Goals ── */
+.learning-goals { background: var(--color-white); }
+.learning-goals .section-header { text-align: center; margin-bottom: var(--space-2xl); }
+.learning-goals .section-header h2 { color: var(--color-navy); margin-top: var(--space-sm); }
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+.goal-card {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+.goal-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+}
+.goal-card h3 { color: var(--color-navy); margin-bottom: var(--space-sm); }
+
+/* ── Details ── */
+.fellowship-details { background: #f0f9ea; }
+.fellowship-details .section-header { text-align: center; margin-bottom: var(--space-2xl); }
+.fellowship-details .section-header h2 { color: var(--color-navy); margin-top: var(--space-sm); }
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+.detail-card {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.detail-card h4 { color: var(--color-green-mid); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.detail-card p { color: var(--color-navy); font-weight: 500; font-size: 1rem; }
+.detail-card span { font-size: 0.875rem; }
+
+/* ── Deliverables ── */
+.fellowship-deliverables { background: var(--color-white); }
+.fellowship-deliverables .section-header { text-align: center; margin-bottom: var(--space-2xl); }
+.fellowship-deliverables .section-header h2 { color: var(--color-navy); margin-top: var(--space-sm); }
+.deliverables-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+.deliverable-step {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+.deliverable-num {
+  width: 56px; height: 56px;
+  background: var(--color-green);
+  color: var(--color-navy);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.deliverable-step h3 { color: var(--color-navy); }
+
+/* ── CTA ── */
+.fellowship-cta {
+  background: var(--color-navy);
+  text-align: center;
+  padding-block: var(--space-3xl);
+}
+.fellowship-cta h2 { color: var(--color-white); margin-bottom: var(--space-md); }
+.fellowship-cta p { color: rgba(255,255,255,0.7); max-width: 500px; margin-inline: auto; margin-bottom: var(--space-xl); }
+
+/* ── Responsive ── */
+@media (max-width: 1023px) {
+  .goals-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 767px) {
+  .fellowship-overview .inner { grid-template-columns: 1fr; }
+  .goals-grid { grid-template-columns: 1fr; }
+  .details-grid { grid-template-columns: 1fr; }
+  .deliverables-steps { grid-template-columns: 1fr; }
+}

@@ -23,8 +23,14 @@
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="/">Home</a>
+        <div class="nav-dropdown">
+          <a href="/program.html" class="nav-dropdown-trigger" aria-current="page">Program ▾</a>
+          <div class="nav-dropdown-menu">
+            <a href="/program.html">All Programs</a>
+            <a href="/fellowship.html">TCE Fellowship</a>
+          </div>
+        </div>
         <a href="/community.html">Community</a>
-        <a href="/program.html" aria-current="page">Program</a>
         <a href="/contact.html">Contact</a>
         <a href="https://maddieshlaimon.notion.site/PMReady-Job-Board-24dad6b675138027bd43e8e88c0aa955" target="_blank" rel="noopener noreferrer">Get Involved</a>
       </nav>
@@ -37,8 +43,9 @@
 
   <nav class="nav-mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
     <a href="/">Home</a>
-    <a href="/community.html">Community</a>
     <a href="/program.html">Program</a>
+    <a href="/fellowship.html">↳ TCE Fellowship</a>
+    <a href="/community.html">Community</a>
     <a href="/contact.html">Contact</a>
     <a href="https://maddieshlaimon.notion.site/PMReady-Job-Board-24dad6b675138027bd43e8e88c0aa955" target="_blank" rel="noopener noreferrer">Get Involved ↗</a>
     <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join Discord</a>
@@ -80,11 +87,12 @@
             <p>Get personalized feedback on your PM resume and portfolio from community mentors who have hired at top tech companies.</p>
             <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get Reviewed</a>
           </div>
-          <div class="program-card">
+          <div class="program-card program-card--coming-soon">
             <div class="program-card-icon teal">🤝</div>
+            <div class="coming-soon-badge">Coming Soon</div>
             <h3>Mentorship Program</h3>
             <p>Get matched 1-on-1 with an experienced PM mentor for personalized guidance, mock interviews, and career strategy sessions.</p>
-            <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Find a Mentor</a>
+            <span class="btn btn-primary btn-disabled" aria-disabled="true">Coming Soon</span>
           </div>
           <div class="program-card">
             <div class="program-card-icon green">💼</div>
@@ -97,6 +105,13 @@
             <h3>University Chapters</h3>
             <p>Bring PMReady to your campus. Start a chapter, host workshops, and build a local community of aspiring PMs at your university.</p>
             <a href="/community.html" class="btn btn-primary">Start a Chapter</a>
+          </div>
+          <div class="program-card program-card--featured">
+            <div class="program-card-icon" style="background:rgba(91,173,48,0.15)">🌱</div>
+            <div class="featured-badge">New</div>
+            <h3>TCE Fellowship</h3>
+            <p>An 11-week program for high school juniors and seniors exploring Software Engineering, UX, and Product Management through hands-on projects.</p>
+            <a href="/fellowship.html" class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
@@ -139,7 +154,10 @@
       <div class="container">
         <h2>Ready to start your PM journey?</h2>
         <p>Join the PMReady community and get access to all programs, resources, and mentorship — for free.</p>
-        <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join our Discord — It's Free</a>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join our Discord — It's Free</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMXrF7UBDqDAgnOpdbuqKwuYFVX8V44ddi9XYIQf_27EXP8Q/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color:rgba(255,255,255,0.5);color:white;">Start a Program</a>
+        </div>
       </div>
     </section>
   </main>

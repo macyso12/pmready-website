@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="PMReady helps you break into Product Management with curated resources, interview prep, and a community helping members land roles at top tech companies." />
-  <title>PMReady — Break into Product Management</title>
+  <meta name="description" content="The PMReady TCE Fellowship — a program giving high school juniors and seniors hands-on experience in Software Engineering, UX, and Product Management." />
+  <title>TCE Fellowship — PMReady</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/src/styles/main.css" />
   <link rel="stylesheet" href="/src/styles/nav.css" />
   <link rel="stylesheet" href="/src/styles/footer.css" />
-  <link rel="stylesheet" href="/src/styles/pages/home.css" />
+  <link rel="stylesheet" href="/src/styles/pages/fellowship.css" />
 </head>
 <body>
 
@@ -22,9 +22,9 @@
         <img src="/assets/images/brand/logo-full.png" alt="PMReady" onerror="this.outerHTML='<span style=\'font-size:1.4rem;font-weight:700;color:var(--color-navy)\'>PMReady</span>'" />
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="/" aria-current="page">Home</a>
+        <a href="/">Home</a>
         <div class="nav-dropdown">
-          <a href="/program.html" class="nav-dropdown-trigger">Program ▾</a>
+          <a href="/program.html" class="nav-dropdown-trigger" aria-current="page">Program ▾</a>
           <div class="nav-dropdown-menu">
             <a href="/program.html">All Programs</a>
             <a href="/fellowship.html">TCE Fellowship</a>
@@ -53,65 +53,63 @@
 
   <main>
     <!-- HERO -->
-    <section class="hero">
+    <section class="fellowship-hero">
       <div class="container">
-        <div class="hero-eyebrow">
-          <span>🌱</span> Grow your PM career
-        </div>
-        <h1>Break into <span>Product Management</span></h1>
-        <p>Access curated resources, interview prep, and a community helping members land roles at top tech companies.</p>
-        <div class="hero-actions">
-          <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join our Discord</a>
-          <a href="/program.html" class="btn btn-outline">Explore Programs</a>
-        </div>
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span class="number">500+</span>
-            <span class="label">Community Members</span>
+        <div class="badge">🌱 High School Fellowship Program</div>
+        <h1>Tech Career Exploration <span>(TCE) Fellowship</span></h1>
+        <p>A hands-on program giving high school juniors and seniors comprehensive exposure to Software Engineering, User Experience, and Product Management careers.</p>
+        <a href="https://forms.gle/6PuQ2ttSTKyQEioM7" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Apply Now</a>
+        <div class="fellowship-stats">
+          <div class="fellowship-stat">
+            <span class="number">3</span>
+            <span class="label">Career Tracks</span>
           </div>
-          <div class="hero-stat">
-            <span class="number">50+</span>
-            <span class="label">Universities Represented</span>
+          <div class="fellowship-stat">
+            <span class="number">11 Weeks</span>
+            <span class="label">Program Duration</span>
           </div>
-          <div class="hero-stat">
-            <span class="number">100+</span>
-            <span class="label">PM Roles Landed</span>
+          <div class="fellowship-stat">
+            <span class="number">2–4</span>
+            <span class="label">Members per Team</span>
+          </div>
+          <div class="fellowship-stat">
+            <span class="number">80%</span>
+            <span class="label">Min. Attendance</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- WHO WE ARE -->
-    <section class="who-we-are">
+    <!-- OVERVIEW -->
+    <section class="fellowship-overview">
       <div class="container">
         <div class="inner">
-          <div class="who-we-are-text">
-            <span class="section-label">Who We Are</span>
-            <h2>A community built for the next generation of PMs</h2>
-            <p>PMReady is a community of passionate individuals dedicated to shaping the next generation of Product Managers, Program Managers, and Project Managers.</p>
-            <p>We believe talent knows no boundaries, and every student deserves the opportunity to learn, grow, and break into the dynamic world of Product Management — regardless of their background or where they go to school.</p>
-            <a href="/community.html" class="btn btn-secondary">Meet the Community</a>
+          <div>
+            <span class="section-label">About the Program</span>
+            <h2>Explore the world of tech — before you choose your path</h2>
+            <p>The TCE Fellowship is designed to give high school students a real look inside the tech industry. Through sessions with industry professionals, hands-on projects, and a final Demo Day, participants walk away with practical skills and the clarity to make informed decisions about their future careers.</p>
+            <p>The program covers three disciplines — Software Engineering, UX Design, and Product Management — so students can discover where their strengths and interests truly lie.</p>
           </div>
-          <div class="who-we-are-visual">
-            <div class="value-pill">
-              <div class="value-pill-icon teal">🤝</div>
+          <div class="overview-cards">
+            <div class="overview-card">
+              <div class="overview-card-icon">💻</div>
               <div>
-                <strong>Inclusive Community</strong>
-                <span>Open to all aspiring PMs, no experience required</span>
+                <strong>Software Engineering</strong>
+                <span>Key concepts, tools, and the development lifecycle</span>
               </div>
             </div>
-            <div class="value-pill">
-              <div class="value-pill-icon green">🎓</div>
+            <div class="overview-card">
+              <div class="overview-card-icon">🎨</div>
               <div>
-                <strong>Student-Led</strong>
-                <span>Built by students, for students and early-career PMs</span>
+                <strong>User Experience (UX)</strong>
+                <span>Design thinking, user research, and prototyping</span>
               </div>
             </div>
-            <div class="value-pill">
-              <div class="value-pill-icon navy">🏆</div>
+            <div class="overview-card">
+              <div class="overview-card-icon">📦</div>
               <div>
-                <strong>Proven Results</strong>
-                <span>Members landing roles at Google, Meta, Microsoft & more</span>
+                <strong>Product Management</strong>
+                <span>Roadmapping, prioritization, and product strategy</span>
               </div>
             </div>
           </div>
@@ -119,39 +117,108 @@
       </div>
     </section>
 
-    <!-- WHAT WE OFFER -->
-    <section class="what-we-offer">
+    <!-- LEARNING GOALS -->
+    <section class="learning-goals">
       <div class="container">
         <div class="section-header">
-          <span class="section-label">What We Offer</span>
-          <h2>Everything you need to land your first PM role</h2>
+          <span class="section-label">Learning Goals</span>
+          <h2>What you'll gain from the TCE Fellowship</h2>
         </div>
-        <div class="offer-grid">
-          <div class="offer-card">
-            <div class="offer-icon teal">💬</div>
-            <h3>Active Community</h3>
-            <p>Connect with hundreds of aspiring and experienced PMs on Discord. Share experiences, ask questions, and grow together.</p>
+        <div class="goals-grid">
+          <div class="goal-card">
+            <div class="goal-icon">🔭</div>
+            <h3>Holistic Understanding</h3>
+            <p>Gain deep insights into the complete processes of software development, UX design, and product management — not just the surface level.</p>
           </div>
-          <div class="offer-card">
-            <div class="offer-icon green">🎯</div>
-            <h3>Interview Prep</h3>
-            <p>Structured practice for product case interviews, behavioral rounds, and metrics questions — with real feedback from the community.</p>
+          <div class="goal-card">
+            <div class="goal-icon">🛠️</div>
+            <h3>Real-World Application</h3>
+            <p>Work on hands-on projects and interact directly with industry professionals to build practical, resume-worthy experience.</p>
           </div>
-          <div class="offer-card">
-            <div class="offer-icon navy">📚</div>
-            <h3>Curated Resources</h3>
-            <p>A hand-picked library of articles, frameworks, templates, and guides to accelerate your PM journey from zero to offer.</p>
+          <div class="goal-card">
+            <div class="goal-icon">🎯</div>
+            <h3>Informed Career Decisions</h3>
+            <p>Leave the program better prepared for higher education and a career in tech — with the clarity to choose a path that fits you.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA BANNER -->
-    <section class="cta-banner">
+    <!-- PROGRAM DETAILS -->
+    <section class="fellowship-details">
       <div class="container">
-        <h2>Ready to break into Product Management?</h2>
-        <p>Join hundreds of aspiring PMs who are leveling up their skills and landing their dream roles.</p>
-        <a href="https://discord.gg/xcQxSrsNRC" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join our Discord — It's Free</a>
+        <div class="section-header">
+          <span class="section-label">Program Details</span>
+          <h2>Everything you need to know</h2>
+        </div>
+        <div class="details-grid">
+          <div class="detail-card">
+            <h4>Who Can Apply</h4>
+            <p>High school juniors and seniors</p>
+            <span>Open to all students passionate about tech and exploring career options</span>
+          </div>
+          <div class="detail-card">
+            <h4>Program Dates</h4>
+            <p>June 23 – September 8, 2026</p>
+            <span>11-week program running through summer</span>
+          </div>
+          <div class="detail-card">
+            <h4>Session Schedule</h4>
+            <p>Tuesdays & Thursdays</p>
+            <span>Regular sessions with industry professionals and mentors</span>
+          </div>
+          <div class="detail-card">
+            <h4>Attendance Requirement</h4>
+            <p>Minimum 80% overall</p>
+            <span>Attendance is taken each session to ensure full engagement</span>
+          </div>
+          <div class="detail-card">
+            <h4>Team Size</h4>
+            <p>2–4 members per team</p>
+            <span>Collaborate on real projects with peers across tracks</span>
+          </div>
+          <div class="detail-card">
+            <h4>Support & Office Hours</h4>
+            <p>Available via Discord</p>
+            <span>Request office hours anytime — all questions are encouraged</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERABLES -->
+    <section class="fellowship-deliverables">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Team Project</span>
+          <h2>Build something real — and present it on Demo Day</h2>
+        </div>
+        <div class="deliverables-steps">
+          <div class="deliverable-step">
+            <div class="deliverable-num">💡</div>
+            <h3>Ideation</h3>
+            <p>Identify a real problem and brainstorm solutions with your team using PM and UX frameworks.</p>
+          </div>
+          <div class="deliverable-step">
+            <div class="deliverable-num">🖥️</div>
+            <h3>Prototyping</h3>
+            <p>Design and build a working prototype of your solution with support from mentors and office hours.</p>
+          </div>
+          <div class="deliverable-step">
+            <div class="deliverable-num">🎤</div>
+            <h3>Product Pitch</h3>
+            <p>Present your product to an audience on Demo Day — May 8, 2026 — and showcase what you've built.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="fellowship-cta">
+      <div class="container">
+        <h2>Ready to explore your future in tech?</h2>
+        <p>Applications are open for high school juniors and seniors. Spots are limited — apply today.</p>
+        <a href="https://forms.gle/6PuQ2ttSTKyQEioM7" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Apply to the TCE Fellowship</a>
       </div>
     </section>
   </main>
@@ -167,6 +234,7 @@
         <div class="footer-links">
           <a href="/community.html">Community</a>
           <a href="/program.html">Program</a>
+          <a href="/fellowship.html">TCE Fellowship</a>
           <a href="/contact.html">Contact</a>
           <a href="https://maddieshlaimon.notion.site/PMReady-Job-Board-24dad6b675138027bd43e8e88c0aa955" target="_blank" rel="noopener noreferrer">Get Involved ↗</a>
         </div>
@@ -180,7 +248,7 @@
           <a href="https://www.linkedin.com/company/pmready-global/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href="https://www.instagram.com/pmready.official" aria-label="Instagram">
+          <a href="https://www.instagram.com/pmready.official" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
           </a>
           <a href="https://linktr.ee/pmready.official" target="_blank" rel="noopener noreferrer" aria-label="Linktree">
