@@ -38,14 +38,14 @@
   position: absolute;
   bottom: -2px; left: 0; right: 0;
   height: 2px;
-  background: var(--color-teal);
+  background: var(--color-green-mid);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.2s ease;
 }
 .nav-links a:hover::after,
 .nav-links a[aria-current="page"]::after { transform: scaleX(1); }
-.nav-links a[aria-current="page"] { color: var(--color-teal); }
+.nav-links a[aria-current="page"] { color: var(--color-green-mid); }
 
 .nav-cta { margin-left: var(--space-md); }
 

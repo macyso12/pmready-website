@@ -2,11 +2,11 @@
 .program-hero {
   padding-top: calc(var(--nav-height) + var(--space-3xl));
   padding-bottom: var(--space-3xl);
-  background: linear-gradient(145deg, #f0fafa 0%, var(--color-white) 60%);
+  background: linear-gradient(145deg, #edf7e8 0%, var(--color-white) 60%);
   text-align: center;
 }
 .program-hero h1 { color: var(--color-navy); max-width: 700px; margin-inline: auto; }
-.program-hero h1 span { color: var(--color-teal); }
+.program-hero h1 span { color: var(--color-green-mid); }
 .program-hero p {
   font-size: 1.125rem;
   max-width: 560px;
@@ -15,7 +15,7 @@
 }
 
 /* ── Programs Grid ── */
-.programs-section { background: var(--color-bg); }
+.programs-section { background: #f0f9ea; }
 .programs-section .section-header {
   text-align: center;
   margin-bottom: var(--space-2xl);
@@ -45,8 +45,8 @@
   justify-content: center;
   font-size: 1.5rem;
 }
-.program-card-icon.teal { background: rgba(62,196,196,0.12); }
-.program-card-icon.green { background: rgba(142,218,92,0.15); }
+.program-card-icon.teal { background: rgba(91,173,48,0.12); }
+.program-card-icon.green { background: rgba(142,218,92,0.2); }
 .program-card-icon.navy { background: rgba(41,40,82,0.08); }
 .program-card h3 { color: var(--color-navy); }
 .program-card p { flex: 1; }
@@ -68,7 +68,7 @@
 .step-card { text-align: center; display: flex; flex-direction: column; align-items: center; gap: var(--space-md); }
 .step-num {
   width: 52px; height: 52px;
-  background: var(--color-teal);
+  background: var(--color-green-mid);
   color: white;
   border-radius: var(--radius-full);
   display: flex;

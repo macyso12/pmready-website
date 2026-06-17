@@ -2,15 +2,17 @@
 
 /* ── Tokens ── */
 :root {
-  --color-teal: #3EC4C4;
-  --color-green: #8EDA5C;
+  --color-teal: #3EC4C4;        /* logo left leaf — used sparingly as complement */
+  --color-green: #8EDA5C;       /* logo right leaf — bright, for bg tints */
+  --color-green-mid: #5BAD30;   /* readable green for text labels & underlines */
+  --color-green-dark: #3D8B20;  /* dark green for hover states */
   --color-navy: #292852;
   --color-navy-light: #3D3C72;
   --color-white: #FFFFFF;
-  --color-bg: #F8F9FA;
+  --color-bg: #F7FAF5;          /* very light green tint instead of blue-grey */
   --color-text: #292852;
   --color-text-muted: #6B7280;
-  --color-border: #E5E7EB;
+  --color-border: #E2EBE0;      /* green-tinted border */
 
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
@@ -84,10 +86,10 @@ section { padding-block: var(--space-3xl); }
 .btn:focus-visible { outline: 3px solid var(--color-teal); outline-offset: 3px; }
 
 .btn-primary {
-  background: var(--color-teal);
-  color: var(--color-white);
+  background: var(--color-green);
+  color: var(--color-navy);
 }
-.btn-primary:hover { background: #34b0b0; }
+.btn-primary:hover { background: #7dce4e; }
 
 .btn-secondary {
   background: var(--color-navy);
@@ -109,7 +111,7 @@ section { padding-block: var(--space-3xl); }
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-teal);
+  color: var(--color-green-mid);
   margin-bottom: var(--space-sm);
 }
 

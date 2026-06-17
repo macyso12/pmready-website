@@ -45,7 +45,7 @@
   color: rgba(255,255,255,0.8);
   transition: background 0.15s, color 0.15s;
 }
-.footer-socials a:hover { background: var(--color-teal); color: var(--color-white); }
+.footer-socials a:hover { background: var(--color-green-mid); color: var(--color-white); }
 .footer-socials svg { width: 16px; height: 16px; }
 
 @media (max-width: 600px) {

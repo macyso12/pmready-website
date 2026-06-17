@@ -2,7 +2,7 @@
 .contact-hero {
   padding-top: calc(var(--nav-height) + var(--space-3xl));
   padding-bottom: var(--space-3xl);
-  background: linear-gradient(145deg, #f0fafa 0%, var(--color-white) 60%);
+  background: linear-gradient(145deg, #edf7e8 0%, var(--color-white) 60%);
   text-align: center;
 }
 .contact-hero h1 { color: var(--color-navy); }
@@ -75,7 +75,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--color-teal);
+  border-color: var(--color-green-mid);
 }
 .form-group input.is-error,
 .form-group textarea.is-error { border-color: #DC2626; }
@@ -99,9 +99,9 @@
 }
 .form-message.success {
   display: block;
-  background: rgba(62,196,196,0.1);
-  border: 1px solid var(--color-teal);
-  color: #1a7a7a;
+  background: rgba(91,173,48,0.1);
+  border: 1px solid var(--color-green-mid);
+  color: #3a7a18;
 }
 .form-message.error {
   display: block;
