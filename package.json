@@ -1,0 +1,21 @@
+{
+  "name": "pmready-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/build-metadata.js && vite",
+    "build": "node scripts/build-metadata.js && vite build",
+    "preview": "vite preview",
+    "seed": "node db/seed.js",
+    "test:e2e": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "better-sqlite3": "^12.11.1",
+    "vite": "^8.0.16"
+  }
+}
