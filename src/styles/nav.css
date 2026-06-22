@@ -60,7 +60,7 @@
 .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 12px);
+  top: calc(100% + 4px);
   left: 50%;
   transform: translateX(-50%);
   background: var(--color-white);
@@ -96,6 +96,16 @@
 .nav-dropdown-menu a::after { display: none; }
 .nav-dropdown:hover .nav-dropdown-menu,
 .nav-dropdown:focus-within .nav-dropdown-menu { display: block; }
+
+/* Bridge the gap between trigger and menu so hover doesn't drop */
+.nav-dropdown::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  right: -20px;
+  height: 20px;
+}
 
 /* Hamburger */
 .nav-hamburger {
